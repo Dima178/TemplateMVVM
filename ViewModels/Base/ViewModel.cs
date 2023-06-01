@@ -37,7 +37,7 @@ namespace MyTestWPFApp.ViewModels.Base
         {
         if (!Disposing || _Dispose) return;
         _Dispose = true;
-         // Освобождение управляемых ресурсов
+         // Освобождение  управляемых ресурсов
         }
     }
 }
