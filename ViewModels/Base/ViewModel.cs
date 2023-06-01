@@ -19,7 +19,7 @@ namespace MyTestWPFApp.ViewModels.Base
         {
         PropertyChanged?.Invoke(this, new PropertyChangedEventArgs(PropertyName));
         }
-        protected virtual bool Set<T>(ref T field, T value, [CallerMemberName] string PropertyName = null) 
+        protected virtual bool Set<T>(ref T field, T value, [CallerMemberName] string? PropertyName = null) 
         {
         if (Equals(field, value)) return false;
         field = value;
