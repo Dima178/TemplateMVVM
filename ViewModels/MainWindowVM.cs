@@ -10,7 +10,7 @@ using System.Windows.Input;
 
 namespace MyTestWPFApp.ViewModels
 {
-    internal class MainWindowVM : ViewModel
+    internal class MainWindowVm : ViewModel
     {
         //protected override void Dispose(bool Disposing)
         //{
@@ -36,7 +36,7 @@ namespace MyTestWPFApp.ViewModels
         #endregion
 
         #endregion
-        public MainWindowVM() 
+        public MainWindowVm() 
         {
 
             #region Команды

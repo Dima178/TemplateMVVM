@@ -10,7 +10,7 @@
         Title="{Binding Path=Title}"
         Height="450" Width="800" >
     <Window.DataContext>
-        <vm:MainWindowVM/>
+        <vm:MainWindowVm/>
     </Window.DataContext>
     <DockPanel>
         <Menu DockPanel.Dock="Top">
@@ -19,7 +19,7 @@
             </MenuItem>
 
             <MenuItem Header="Помощь">
-                <MenuItem Header="О программе"/>
+                <MenuItem Header="О программе" />
             </MenuItem>
         </Menu>
         <StatusBar DockPanel.Dock="Bottom">
